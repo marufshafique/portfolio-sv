@@ -37,7 +37,7 @@
 		<HorizontalLine />
 		<h1 class="text-5xl font-medium">Work</h1>
 
-		<div class="grid gap-8 py-16 md:grid-cols-2">
+		<div class="gap-8 py-16 md:grid md:grid-cols-2">
 			{#each works as work, i}
 				<a href="" class={`${i === 0 ? 'col-span-2' : ''}`}>
 					<Project title={work.title} url={work.url} desc={work.desc} />
