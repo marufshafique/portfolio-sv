@@ -2,6 +2,7 @@
 	import BlogPost from './BlogPost.svelte';
 	import Container from './Container.svelte';
 	import HorizontalLine from './HorizontalLine.svelte';
+	import SectionHeader from './SectionHeader.svelte';
 
 	const blog_posts = [
 		{
@@ -34,8 +35,7 @@
 
 <section>
 	<Container>
-		<HorizontalLine />
-		<h1 class="text-5xl font-medium">Writings</h1>
+		<SectionHeader title="Writings" />
 		<h3 class="mt-8 text-2xl">Blog posts</h3>
 
 		<div class="mt-8 space-y-8">

@@ -2,6 +2,7 @@
 	import Container from './Container.svelte';
 	import HorizontalLine from './HorizontalLine.svelte';
 	import Project from './Project.svelte';
+	import SectionHeader from './SectionHeader.svelte';
 
 	const works = [
 		{
@@ -34,8 +35,7 @@
 
 <Container>
 	<section class="mt-10">
-		<HorizontalLine />
-		<h1 class="text-5xl font-medium">Work</h1>
+		<SectionHeader title="Work" />
 
 		<div class="gap-8 py-16 md:grid md:grid-cols-2">
 			{#each works as work, i}
