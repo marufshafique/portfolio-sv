@@ -33,7 +33,7 @@
 	];
 </script>
 
-<section>
+<section class="mt-10 sm:mt-16 md:mt-32">
 	<Container>
 		<SectionHeader title="Writings" />
 		<h3 class="mt-8 text-2xl">Blog posts</h3>

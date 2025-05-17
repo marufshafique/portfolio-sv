@@ -15,7 +15,7 @@
 </div>
 
 <Container>
-	<div class="mx-auto space-y-8 py-20 sm:py-40 md:w-[80%] md:py-48">
+	<div class="mx-auto space-y-8 pt-20 sm:pt-40 md:w-[80%] md:pt-48">
 		<p class="text-xl md:text-2xl">
 			I’m a freelance software engineer. I build web applications and APIs using JavaScript,
 			TypeScript, React, Node.js, and Svelte. I’m a freelance software engineer. I build web

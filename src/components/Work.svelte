@@ -34,10 +34,10 @@
 </script>
 
 <Container>
-	<section class="mt-10">
+	<section class="mt-10 sm:mt-16 md:mt-32">
 		<SectionHeader title="Work" />
 
-		<div class="gap-8 py-16 md:grid md:grid-cols-2">
+		<div class="gap-8 pt-16 md:grid md:grid-cols-2">
 			{#each works as work, i}
 				<a href="" class={`${i === 0 ? 'col-span-2' : ''}`}>
 					<Project title={work.title} url={work.url} desc={work.desc} />

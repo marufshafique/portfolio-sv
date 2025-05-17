@@ -26,16 +26,18 @@
 	];
 </script>
 
-<Container>
-	<SectionHeader title="Experience" />
+<section class="mt-10 sm:mt-16 md:mt-32">
+	<Container>
+		<SectionHeader title="Experience" />
 
-	<div>
-		{#each experiences as experience}
-			<div class="mt-8">
-				<h3 class="text-2xl font-medium">{experience.position}</h3>
-				<p class="text-lg text-gray-500">{experience.title}</p>
-				<p class="text-lg text-gray-500">{experience.date}</p>
-			</div>
-		{/each}
-	</div>
-</Container>
+		<div>
+			{#each experiences as experience}
+				<div class="mt-8">
+					<h3 class="text-2xl font-medium">{experience.position}</h3>
+					<p class="text-lg text-gray-500">{experience.title}</p>
+					<p class="text-lg text-gray-500">{experience.date}</p>
+				</div>
+			{/each}
+		</div>
+	</Container>
+</section>

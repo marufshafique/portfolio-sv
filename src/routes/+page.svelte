@@ -3,6 +3,7 @@
 	import Contact from '../components/Contact.svelte';
 	import EmailList from '../components/EmailList.svelte';
 	import Experience from '../components/Experience.svelte';
+	import Footer from '../components/Footer.svelte';
 	import PortfolioHeader from '../components/PortfolioHeader.svelte';
 	import Skills from '../components/Skills.svelte';
 	import Work from '../components/Work.svelte';
@@ -33,4 +34,6 @@
 	<Contact />
 
 	<EmailList />
+
+	<Footer />
 </section>
