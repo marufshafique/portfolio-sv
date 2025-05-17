@@ -6,27 +6,27 @@
 
 	const blog_posts = [
 		{
-			title: 'Blog Post 1',
+			title: 'The making of your favorite products 1',
 			date: 'Jan 23, 2023',
 			url: 'https://placehold.co/600x400'
 		},
 		{
-			title: 'Blog Post 2',
+			title: 'The making of your favorite products',
 			date: 'Jan 23, 2023',
 			url: 'https://placehold.co/600x400'
 		},
 		{
-			title: 'Blog Post 3',
+			title: 'The making of your favorite products 3',
 			date: 'Jan 23, 2023',
 			url: 'https://placehold.co/600x400'
 		},
 		{
-			title: 'Blog Post 4',
+			title: 'The making of your favorite products 4',
 			date: 'Jan 23, 2023',
 			url: 'https://placehold.co/600x400'
 		},
 		{
-			title: 'Blog Post 5',
+			title: 'The making of your favorite products 5',
 			date: 'Jan 23, 2023',
 			url: 'https://placehold.co/600x400'
 		}
@@ -35,15 +35,21 @@
 
 <section class="mt-10 sm:mt-16 md:mt-32">
 	<Container>
-		<SectionHeader title="Writings" />
-		<h3 class="mt-8 text-2xl">Blog posts</h3>
+		<div class="grid gap-16 lg:grid-cols-2">
+			<div>
+				<SectionHeader title="Writings" />
+			</div>
 
-		<div class="mt-8 space-y-8">
-			{#each blog_posts as post}
-				<BlogPost title={post.title} date={post.date} />
-			{/each}
-			<div class="my-8">
-				<a class="text-xl font-medium text-gray-700 underline" href="">View All Writings</a>
+			<div class="mt-8 space-y-8 md:mt-0">
+				<h3 class="text-2xl">Blog posts</h3>
+
+				{#each blog_posts as post}
+					<BlogPost title={post.title} date={post.date} />
+				{/each}
+
+				<div class="my-8">
+					<a class="text-xl font-medium text-gray-700 underline" href="">View All Writings</a>
+				</div>
 			</div>
 		</div>
 	</Container>
