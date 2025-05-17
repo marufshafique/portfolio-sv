@@ -1,4 +1,5 @@
 <script lang="ts">
+	import About from '../components/About.svelte';
 	import PortfolioHeader from '../components/PortfolioHeader.svelte';
 	import Work from '../components/Work.svelte';
 	import Writings from '../components/Writings.svelte';
@@ -14,6 +15,10 @@
 
 <section>
 	<PortfolioHeader />
+
 	<Work />
+
 	<Writings />
+
+	<About />
 </section>
