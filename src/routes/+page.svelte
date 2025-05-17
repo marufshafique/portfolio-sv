@@ -2,6 +2,7 @@
 	import About from '../components/About.svelte';
 	import Experience from '../components/Experience.svelte';
 	import PortfolioHeader from '../components/PortfolioHeader.svelte';
+	import Skills from '../components/Skills.svelte';
 	import Work from '../components/Work.svelte';
 	import Writings from '../components/Writings.svelte';
 </script>
@@ -24,4 +25,6 @@
 	<About />
 
 	<Experience />
+
+	<Skills />
 </section>
