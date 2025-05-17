@@ -1,5 +1,6 @@
 <script lang="ts">
 	import PortfolioHeader from '../components/PortfolioHeader.svelte';
+	import Work from '../components/Work.svelte';
 </script>
 
 <svelte:head>
@@ -12,4 +13,5 @@
 
 <section>
 	<PortfolioHeader />
+	<Work />
 </section>
