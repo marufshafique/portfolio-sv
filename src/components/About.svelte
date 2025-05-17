@@ -7,9 +7,9 @@
 	<Container>
 		<SectionHeader title="About" />
 
-		<div class="mt-16 grid grid-cols-2 gap-32">
+		<div class="mt-16 grid gap-32 lg:grid-cols-2">
 			<div>
-				<p class="text-3xl font-medium">
+				<p class="text-3xl font-medium leading-10">
 					I’m Ben — a freelance digital product designer with 10 years of experience. I care a lot
 					about using design for positive impact. Currently based in Lisbon, Portugal.
 				</p>

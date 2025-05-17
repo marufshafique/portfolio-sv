@@ -1,7 +1,6 @@
 <script lang="ts">
 	import BlogPost from './BlogPost.svelte';
 	import Container from './Container.svelte';
-	import HorizontalLine from './HorizontalLine.svelte';
 	import SectionHeader from './SectionHeader.svelte';
 
 	const blog_posts = [
