@@ -28,16 +28,20 @@
 
 <section class="mt-10 sm:mt-16 md:mt-32">
 	<Container>
-		<SectionHeader title="Experience" />
+		<div class="grid gap-16 lg:grid-cols-2">
+			<div>
+				<SectionHeader title="Experience" />
+			</div>
 
-		<div>
-			{#each experiences as experience}
-				<div class="mt-8">
-					<h3 class="text-2xl font-medium">{experience.position}</h3>
-					<p class="text-lg text-gray-500">{experience.title}</p>
-					<p class="text-lg text-gray-500">{experience.date}</p>
-				</div>
-			{/each}
-		</div>
-	</Container>
+			<div class="space-y-16 mt-4">
+				{#each experiences as experience}
+					<div>
+						<h3 class="text-3xl font-medium mb-2">{experience.position}</h3>
+						<p class="text-3xl text-gray-500 mb-2">{experience.title}</p>
+						<p class="text-2xl text-gray-500">{experience.date}</p>
+					</div>
+				{/each}
+			</div>
+		</div></Container
+	>
 </section>
