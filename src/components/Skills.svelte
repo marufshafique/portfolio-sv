@@ -9,9 +9,9 @@
 	<Container>
 		<SectionHeader title="Skills" />
 
-		<div>
+		<div class="mt-8">
 			{#each skills as skill}
-				<h1 class="text-7xl font-medium">{skill}</h1>
+				<h1 class="text-6xl font-medium border-b border-gray-200 py-10">{skill}</h1>
 			{/each}
 		</div>
 	</Container>
