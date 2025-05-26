@@ -8,5 +8,7 @@
 	const props: Props = $props();
 </script>
 
-<HorizontalLine />
-<h1 class="text-5xl font-medium">{props.title}</h1>
+<div class="mb-20">
+	<HorizontalLine />
+	<h1 class="text-5xl font-medium">{props.title}</h1>
+</div>
